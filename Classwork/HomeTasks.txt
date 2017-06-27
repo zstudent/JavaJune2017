@@ -9,3 +9,14 @@ June 24, 2017
 - mod(int a, int b)  - вычисление отстатка от деления нацело, не используя оператор %
 - isPrime(int a)  - если число простое, вернуть true, иначе false
 - isFibonacci(int a)  - если это число из ряда Фибоначчи - вернуть true, иначе false 
+
+
+June 27, 2017
+
+Написать методы, преобразующие десятичное число в строковое представление в разных системах счисления
+
+		System.out.println(x);
+		System.out.println(Integer.toBinaryString(x));  // required
+		System.out.println(Integer.toHexString(x)); // required
+		System.out.println(Integer.toOctalString(x)); // required
+		System.out.println(Integer.toString(x,3));  // с указанием основания системы счисления  optional

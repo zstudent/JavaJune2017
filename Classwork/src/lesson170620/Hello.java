@@ -3,7 +3,7 @@ package lesson170620;
 import java.io.Serializable;
 
 public class Hello {
-	
+
 	public static void  main(String[] args) {
 		System.out.println("Hello, world");
 		
@@ -20,13 +20,14 @@ public class Hello {
 		((B)s).
 		
 	}
-	
+
 	static class A implements Serializable {
-		
+
 	}
-	
+
 	static class B extends A {
-		public void m() {}
+		public void m() {
+		}
 	}
 
 }
