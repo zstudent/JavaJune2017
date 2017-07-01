@@ -10,6 +10,8 @@ public class Singleton {
 		return instance;
 	}
 	
+	public static void helper() {}
+	
 	public void doIt() {
 		System.out.println("did it");
 	}
