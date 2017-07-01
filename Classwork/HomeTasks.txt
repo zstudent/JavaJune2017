@@ -20,3 +20,9 @@ June 27, 2017
 		System.out.println(Integer.toHexString(x)); // required
 		System.out.println(Integer.toOctalString(x)); // required
 		System.out.println(Integer.toString(x,3));  // с указанием основания системы счисления  optional
+
+		
+Jule 1, 2017
+
+Написать метод, печатающий сумму элементов в ряду 2D матрицы,
+ но только если в этом ряду нет отрицательных чисел		

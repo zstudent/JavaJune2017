@@ -1,7 +1,5 @@
 package lesson170629.classwork;
 
-import java.util.Arrays;
-
 public class Genome {
 	
 	/*
@@ -9,9 +7,9 @@ public class Genome {
 	 * 
 	 * N = 100000
 	 * 
-	 *  
+	 *     offset1  
 	 * AAACCACAGTAGCTCGAATCGCCTAGCGCTATGCGCGGATCGCGCGCATTCGGATCTCT
-	 * 
+	 *                offset2
 	 * AAA
 	 * AAC
 	 * ACC           
