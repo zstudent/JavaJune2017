@@ -11,3 +11,8 @@ Test Driven Development TDD
 
 JRE  Java Runtime  Environment
 
+
+
+2WN  Radix 8000000
+1.4NlogN  28000000 
+
