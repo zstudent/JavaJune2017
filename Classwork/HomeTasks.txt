@@ -37,3 +37,14 @@ July 4, 2017
 просто циклы (while или for) и System.out.print/println
 
 (optional) отсортировать миллион целых чисел.  сравнить стандартный Arrays.sort и Radix
+
+
+July 7, 2017
+
+Дописать в StringMethodsPractice методы trim и replace 
+
+Доделать класс StringArrayList:   добавить методы get, set, size, isEmpty, remove(value), toString (переписать)
+
+
+
+
