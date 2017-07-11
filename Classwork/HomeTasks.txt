@@ -46,5 +46,10 @@ July 7, 2017
 Доделать класс StringArrayList:   добавить методы get, set, size, isEmpty, remove(value), toString (переписать)
 
 
+July 10, 2017
+
+В классе StringLinkedList 
+  в toString сделать StringBuilder
+  реализовать remove(int index)
 
 

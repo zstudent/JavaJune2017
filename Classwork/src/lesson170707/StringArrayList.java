@@ -22,7 +22,7 @@ public class StringArrayList {
 		elements[size++] = string;
 //		size = size + 1;
 	}
-	
+
 	@Override
 	public String toString() {
 		return Arrays.toString(elements);
