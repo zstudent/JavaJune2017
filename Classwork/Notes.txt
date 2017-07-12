@@ -18,3 +18,41 @@ JRE  Java Runtime  Environment
 
 
 snap = "!snapshot() { COMMENT=work-in-progress; if [ \"$*\" ]; then COMMENT=\"$*\"; fi; git add -A; git commit -m \"$COMMENT\"; }; snapshot"
+
+Queue  FIFO  First In First Out
+Stack Магазин  LIFO  Last In First Out
+push
+pop
+tos (tops of stack), top, peek
+size  
+
+ ^  tos 
+ | 
+ |  
+___  bottom
+  
+upside down  
+-----------  bottom
+|
+|
+V   tos
+
+
+Left to right
+|A
+push A
+push B
+push C
+pop  -> C
+pop  -> B
+tos -> A
+
+Memory Leak
+|MMMMMMMMMMMMMMMMMMMMMM
+                       ^
+Public               public
+Protected            protected
+Default (Package)    
+Private              private
+
+

@@ -51,5 +51,9 @@ July 10, 2017
 В классе StringLinkedList 
   в toString сделать StringBuilder
   реализовать remove(int index)
+  
+July 12, 2017
+
+реализовать STack на массиве с TDD  
 
 
