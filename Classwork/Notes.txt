@@ -54,5 +54,6 @@ Public               public
 Protected            protected
 Default (Package)    
 Private              private
-
+  
+  is-a
 
