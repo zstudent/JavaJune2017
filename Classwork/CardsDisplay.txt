@@ -1,0 +1,10 @@
+first   [  V]   <-(41)-
+        [  X]   
+
+
+     X
+     
+     
+     Draw  bottom card with y = 6;
+     
+     

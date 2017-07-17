@@ -59,3 +59,11 @@ Private              private
 
 Старая версия Solitare от Timothy Budd
 http://csweb.cs.wfu.edu/~burg/Courses/Fall99/CSC361/course-materials/JavaExamples/Solitare.java
+
+first  [   V]
+       [   V]
+       [   X]
+
+
+
+
