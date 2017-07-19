@@ -65,5 +65,22 @@ first  [   V]
        [   X]
 
 
+SOLID
+
+Inheritance Forms
+
+Specialization *  is-a  Liskov Substitution Principle    
+Specification *   is-a 
+Construction *    NO is-a!
+Generalization *  is-a ?
+Extension *    is-a
+Restriction *  NO is-a!
+Variation  *  NO is-a!
+Combination *  not implemented in Java for classes
+
+
+
+
+
 
 
