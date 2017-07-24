@@ -14,7 +14,13 @@ public class Use {
 		
 		z = c;
 		y = b; y = c;
-		x = a; x = b; x = c;
+		x = a; 
+		x = b;
+		x = c;
+		
+		A a2 = (C)x;
+		
+		a2.change();
 		
 	}
 

@@ -69,3 +69,6 @@ http://csweb.cs.wfu.edu/~burg/Courses/Fall99/CSC361/course-materials/JavaExample
   должен перенести все карты из DiscardPile обратно в неё (в DeckPile). 
   не забыть перевернуть все перемещённые карты рубашкой вверх
 
+
+July 24, 2017
+Create Rat & Cat (with Helpers and with Inners)

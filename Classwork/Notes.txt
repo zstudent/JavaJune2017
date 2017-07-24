@@ -79,6 +79,24 @@ Variation  *  NO is-a!
 Combination *  not implemented in Java for classes
 
 
+Nested:   Static, Inner, Local, Anonymous   SILA
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
