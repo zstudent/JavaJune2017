@@ -2,9 +2,11 @@ package lesson170724.nested;
 
 public class Dog implements Pet {
 	
-	private Brain brain = this.new Hungry();
+	private interface DogBrain extends Pet {}
 	
-	private class Hungry implements Brain {
+	private DogBrain brain = this.new Hungry();
+	
+	private class Hungry implements DogBrain {
 
 		@Override
 		public void feed() {
@@ -24,7 +26,7 @@ public class Dog implements Pet {
 		
 	}
 	
-	private class Fed implements Brain {
+	private class Fed implements DogBrain {
 		
 		@Override
 		public void feed() {
