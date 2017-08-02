@@ -3,7 +3,7 @@ package lesson170728.exceptions;
 import java.util.Arrays;
 
 public class StringStackWithThrow {
-
+	
 	private static final int DEFAULT_MAX_SIZE = 3;
 	private String[] elements;
 	private int size;
@@ -19,8 +19,12 @@ public class StringStackWithThrow {
 
 	public boolean push(String string) throws Exception {
 		
+		if (string == null) {
+			throw new IllegalArgumentException("nulls are not allowed");
+		}
+		
 		if (size >= elements.length) {
-			throw new Exception("Stack overflow");
+			throw new Overflow(size);
 		}
 		
 		try {
