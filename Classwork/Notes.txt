@@ -86,6 +86,14 @@ Nested:   Static, Inner, Local, Anonymous   SILA
 boilerplate code
 
 
+E   element type
+K   key type
+V   value type
+N   number
+T   type
+S   other type
+U   other type
+V   other type
 
 
 
