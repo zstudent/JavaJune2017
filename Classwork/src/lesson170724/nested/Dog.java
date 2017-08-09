@@ -49,8 +49,6 @@ public class Dog implements Pet {
 	public void feed() {
 		brain.feed();
 	}
-	
-
 
 	@Override
 	public void play() {

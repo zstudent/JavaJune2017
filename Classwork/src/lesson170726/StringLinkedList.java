@@ -93,6 +93,7 @@ public class StringLinkedList implements Iterable<String> {
 
 	@Override
 	public Iterator<String> iterator() {
+		
 		return new Iterator<String> () {
 			
 //			Node current = StringLinkedList.this.first;

@@ -95,6 +95,11 @@ S   other type
 U   other type
 V   other type
 
+JIT  Just In Time compilation
+warmup
+
+JVM  Java Virtual Machine
+
 
 
 

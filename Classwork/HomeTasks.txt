@@ -72,3 +72,14 @@ http://csweb.cs.wfu.edu/~burg/Courses/Fall99/CSC361/course-materials/JavaExample
 
 July 24, 2017
 Create Rat & Cat (with Helpers and with Inners)
+
+August 9, 2017
+Dictionary:
+1) make it generic
+2) reduce hash() invocation in put()
+3) automatic resize
+4) benchmark:  compare  1000  10000  100000
+5) implement delete (optional)
+
+
+
