@@ -100,9 +100,10 @@ warmup
 
 JVM  Java Virtual Machine
 
+13 18 5
 
-
-
+Information:  extract, store, transfer, process
+Process: analyze ,  search,  update,   transpose
 
 
 
