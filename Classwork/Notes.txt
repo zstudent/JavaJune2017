@@ -120,9 +120,9 @@ Process: analyze ,  search,  update,   transpose
 2 5 0
 3 0 6
 
-1 2 3
-8 9 4
-7 6 5
+1 2 3    0 0 0 0   h = 1  v = 0   r += v c += v
+8 9 4    0 0 0 0
+7 6 5    0 0 0 0
 
 
 N = 1_000_000
@@ -133,4 +133,10 @@ c = 2
 hash  ->  c * N * W                    -->>> 100_000_000
 quick sort  ->  1.4 * k * W * N * Log N -->>> 280_000_000
 
+Sort algorithms:
+Selection, Insertion, HeapSort, Quick Sort, Merge Sort, Radix Sort (Counting sort)
 
+List Queue Deque Stack  Priority Queue
+HashSet/HashMap  TreeSet/TreeMap
+LinkedHashMap/LinkedHashSet
+  

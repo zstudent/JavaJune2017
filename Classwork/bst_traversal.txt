@@ -1,0 +1,6 @@
+
+A C E H M R S X   in-order   left-current-right
+
+S E A C R H M X    pre-order  current-left-right
+
+C A M H R E X S   post-order  left-right-current
