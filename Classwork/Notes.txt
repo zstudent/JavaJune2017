@@ -140,3 +140,27 @@ List Queue Deque Stack  Priority Queue
 HashSet/HashMap  TreeSet/TreeMap
 LinkedHashMap/LinkedHashSet
   
+  
+Source ->  Transformations... ->  Terminal Operations   
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
