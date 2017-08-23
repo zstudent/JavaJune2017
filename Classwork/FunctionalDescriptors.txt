@@ -1,0 +1,9 @@
+
+Predicate<T>          T    ->  boolean
+BiPredicate<T,V>    (T,V)  ->  boolean
+Consumer<T>           T    ->  void
+Supplier<T>          ()    ->  T     
+Function<T,R>         T    ->  R
+UnaryOperator<T>         T    ->  T
+BiFunction<T,U,R>      (T,U)  ->  R
+BinaryOperator<T>      (T,T)  ->  T

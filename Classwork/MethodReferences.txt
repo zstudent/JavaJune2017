@@ -1,0 +1,9 @@
+
+(args) -> ClassName.staticMethod(args)   
+ClassName::staticMethod
+
+(arg, rest...)  -> arg.instanceMethod(rest)
+ClassName::instanceMethod 
+
+(args)  ->  expr.instanceMethod(args)
+expr::instanceMethod
