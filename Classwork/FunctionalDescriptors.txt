@@ -1,9 +1,11 @@
 
-Predicate<T>          T    ->  boolean
-BiPredicate<T,V>    (T,V)  ->  boolean
-Consumer<T>           T    ->  void
-Supplier<T>          ()    ->  T     
-Function<T,R>         T    ->  R
-UnaryOperator<T>         T    ->  T
-BiFunction<T,U,R>      (T,U)  ->  R
-BinaryOperator<T>      (T,T)  ->  T
+Predicate<T>       test       T    ->  boolean
+BiPredicate<T,V>   test     (T,V)  ->  boolean
+Consumer<T>        accept     T    ->  void
+Supplier<T>        get        ()   ->    T     
+Function<T,R>      apply      T    ->    R
+UnaryOperator<T>   apply      T    ->    T
+BiFunction<T,U,R>  apply    (T,U)  ->    R
+BinaryOperator<T>  apply    (T,T)  ->    T
+Runnable           run        ()   ->  void
+Callable<V>        call       ()   ->    V
