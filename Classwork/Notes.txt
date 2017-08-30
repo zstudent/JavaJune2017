@@ -151,16 +151,36 @@ FixedDelay
 [----]
       <----->[----]  
   
+VISIBILITY  
   
+Thread1    stop == false  stop == false
+CPU Core1 <-> Registers <->  Cache1 \               <--- stop == true
+  									 <-> Cache2 <-> RAM (Random Access Memory)				
+Thread2                             /                     stop = true
+CPU Core2  <-> Registers <->  Cache1  
+  stop = true
   
+RACE CONDITION
+
+Thread1               Count            Thread2
+                        0
+    0         <- LOAD   0 
+                        0  LOAD     ->      0                
+    1         +1 INC    0         
+                        0  INC      +1      1 
+    1         -> STOR   1         
+                        1  STOR     <-      1 
   
+  Solution:  critical section
   
-  
-  
-  
-  
-  
-  
+Thread1               Count            Thread2
+                        0
+    0         <- LOAD   0 
+    1         +1 INC    0         
+    1         -> STOR   1         
+                        1  LOAD     ->      1                
+                        1  INC      +1      2 
+                        2  STOR     <-      2 
   
   
   
