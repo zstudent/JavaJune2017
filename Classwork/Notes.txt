@@ -183,6 +183,17 @@ Thread1               Count            Thread2
                         2  STOR     <-      2 
   
   
+Derby
+
+MySQL
+Postgres
+Oracle
+IBM Db2
+
+ORM  Object-Relational Mapping: MyBATIS, Hibernate, e.t.c.  
+JPA  (Java Persistence API)
+
+NOSQL  NotOnlySQL
   
   
   

@@ -1,0 +1,17 @@
+Equals rules
+
+1) reflexive     x.equals(x)  == true
+2) symmetric     x.equals(y)  <-> y.equals(x)
+3) transitive    x.equals(y) && y.equals(z) ->  x.equals(z)
+4) consistent    x.equals(y) ==  x.equals(y) == x.equals(y)
+5)  x.equals(null) == false  (always!) 
+
+Hashcode rules
+
+1) consistent  x.hashcode()  == x.hashcode()
+2) if x.equals(y)  ->  x.hashcode == y.hashcode()
+3) if x.equals(y) == false  !-> x.hashcode() != y.hashcode()
+
+int hashcode = 7;
+hashcode = hashcode + 31 * this.name.hashcode();
+hashcode = hashcode + 31 * this.id;
